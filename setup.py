@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'project_node = bag_njb.project_node:main',
+            'project_node = project_node:main',
         ],
     },
 )
