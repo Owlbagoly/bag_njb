@@ -1,22 +1,16 @@
-import launch
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        # Indítjuk a turtlesim node-ot
         Node(
-            package='turtlesim',  
-            executable='turtlesim_node',  
-            name='turtlesim',  
-            output='screen'  
+            package='turtlesim',
+            executable='turtlesim_node',
+            name='sim'
         ),
-        
-        # Indítjuk a hexagon_turtle node-ot
         Node(
-            package='bag_njb',  #
-            executable='hexagon_turtle',  
-            name='hexagon_turtle',  
-            output='screen'  
-        )
+            package='bag_njb',  # Az általad megadott csomag neve
+            executable='bag_njb_node',  # Az indítani kívánt végrehajtható fájl
+            output='screen',
+        ),
     ])
