@@ -29,6 +29,6 @@ source ~/ros2_ws/install/setup.bash
 </details>
 
 ``` r
-ros2 launch bag_njb launch_example1.launch.py
+ros2 launch bag_njb hexagon_launch.py
 ```
 
