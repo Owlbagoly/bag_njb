@@ -10,7 +10,7 @@ def generate_launch_description():
         ),
         Node(
             package='bag_njb',  # Az általad megadott csomag neve
-            executable='bag_njb_node',  # Az indítani kívánt végrehajtható fájl
+            executable='project_node.py',  # Az indítani kívánt végrehajtható fájl
             output='screen',
         ),
     ])
