@@ -31,4 +31,5 @@ source ~/ros2_ws/install/setup.bash
 ``` r
 ros2 launch bag_njb hexagon_launch.py
 ```
-
+![alt text](<img/Screenshot from 2025-03-16 16-12-09.png>)
+![alt text](<img/Screenshot from 2025-03-16 16-06-14.png>)
