@@ -15,7 +15,7 @@ def generate_launch_description():
         # Indítjuk a project_node node-ot
         Node(
             package='bag_njb',  #
-            executable='project_node,  
+            executable='project_node',  
             name='project_node',  
             output='screen'  
         )
