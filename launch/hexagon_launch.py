@@ -12,11 +12,11 @@ def generate_launch_description():
             output='screen'  
         ),
         
-        # Indítjuk a hexagon_turtle node-ot
+        # Indítjuk a project_node node-ot
         Node(
             package='bag_njb',  #
-            executable='hexagon_turtle',  
-            name='hexagon_turtle',  
+            executable='project_node,  
+            name='project_node',  
             output='screen'  
         )
     ])
